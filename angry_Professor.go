@@ -30,9 +30,9 @@ func main() {
         }
     }
     if count <= k {
-        fmt.println('YES')
+        fmt.println("YES")
     }else {
-        fmt.println('NO')
+        fmt.println("NO")
     }
  
             
