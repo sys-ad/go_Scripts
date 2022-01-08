@@ -8,7 +8,14 @@ import "bufio"
 
 
 func check_tardiness(s []int32, k int, n int) bool {
+    
+return
         
-  
-  
-    return True
+func main() {
+    
+    in := bufio.NewReader(os.Stdin)    
+    var i, k int
+    var 
+                
+        
+              
