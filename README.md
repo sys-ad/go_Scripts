@@ -1,3 +1,3 @@
-# go_Scripts
+go_Scripts
 
-# sandbox repository for ideas in golang, testing, misc.
+sandbox repository for ideas in golang, testing, misc.
