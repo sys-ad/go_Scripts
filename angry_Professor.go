@@ -1,22 +1,18 @@
 package main 
 
 import "fmt"
-//import "os"
-//import "bufio"
-
         
 func main() {
     
-    // in := bufio.NewReader(os.Stdin)    
     var t, n, k int // t = number of test cases, n = number of students (size of array input array length), k = threshold
     var count = 0
     var a []uint64
-    a = make([]uint64, n)
     
     fmt.Scan(&t, &n, &k)
+    a = make([]uint64, n)
     
     for i := 0; i <= n; i++ {
-        fmt.Scan(&a[i])
+        fmt.Scanf("%d", &a[i])
         if a[i] <= 0 {
             count++
         }else {
@@ -24,8 +20,8 @@ func main() {
         }
     }
     if count <= k {
-        println("YES")
+        fmt.Println("YES")
     }else {
-        println("NO")
+        fmt.Println("NO")
     }
 }
