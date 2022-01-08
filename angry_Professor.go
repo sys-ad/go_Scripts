@@ -15,8 +15,20 @@ func main() {
     
     in := bufio.NewReader(os.Stdin)    
     var t, n, k int // t = number of test cases, n = number of students (size of array input array length), k = threshold
+    var count := 0
     var a [n]int
     fmt.Scan(&t, &n, &k)
     
-    for 
+    for i := 0; i <= n; i++ {
+        fmt.Scan(&i)
+        if a[i] <= 0 {
+            count++
+        }else {
+            break
+        }
+    }
+    if count <= k {
+        fmt.println('YES')
+    }else {
+        fmt.println('NO')
               
