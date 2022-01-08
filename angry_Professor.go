@@ -1,17 +1,15 @@
 package main 
 
 import "fmt"
-import "strconv"
-import "strings"
-import "os"
-import "bufio"
+//import "os"
+//import "bufio"
 
         
 func main() {
     
-    in := bufio.NewReader(os.Stdin)    
+    // in := bufio.NewReader(os.Stdin)    
     var t, n, k int // t = number of test cases, n = number of students (size of array input array length), k = threshold
-    var count := 0
+    var count = 0
     var a []uint64
     a = make([]uint64, n)
     
@@ -26,9 +24,8 @@ func main() {
         }
     }
     if count <= k {
-        fmt.println("YES")
+        println("YES")
     }else {
-        fmt.println("NO")
+        println("NO")
     }
- 
-            
+}
