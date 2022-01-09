@@ -10,14 +10,14 @@ func main() {
     
     fmt.Scan(&t, &n, &k)
     a = make([]uint64, n)
-    
+        
     for i := 0; i <= n; i++ {
         fmt.Scanf("%d", &a[i])
-        if a[i] <= 0 {
-            count++
-        }else {
-            break
-        }
+         if a[i] <= 0 {
+             count++
+         }else {
+                break
+         }
     }
     if count <= k {
         fmt.Println("YES")
