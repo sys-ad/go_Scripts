@@ -1,5 +1,7 @@
 package main 
 
+// HackerRank submission: Angry Proffesor - Algorithms - Problem Solving
+
 import "fmt"
         
 func main() {
