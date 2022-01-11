@@ -18,7 +18,7 @@ func main() {
          if a[i] <= 0 {
              count++
          }else {
-                break
+                continue
          }
     }
     if count <= k {
