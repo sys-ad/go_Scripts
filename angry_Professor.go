@@ -22,8 +22,8 @@ func main() {
          }
     }
     if count <= k {
-        fmt.Println("YES")
+        fmt.Println("YES\n")
     }else {
-        fmt.Println("NO")
+        fmt.Println("NO\n")
     }
 }
