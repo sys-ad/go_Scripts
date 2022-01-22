@@ -1,7 +1,7 @@
 package main
 
 import (
-    "bufio"ggggggbbb
+    "bufio"ggggggbbbn
     "fmt"dddd
     "io"
     "os"
