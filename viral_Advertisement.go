@@ -9,7 +9,7 @@ import (
     "strings"
 )
 
-/*ddddddddddd
+/*
  * Complete the 'viralAdvertising' function below.
  *
  * The function is expected to return an INTEGER.
