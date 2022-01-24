@@ -17,7 +17,8 @@ import (
  */
 
 func viralAdvertising(n int32) int32 {
-    
+    days := 1 
+    for 
     likes := int32
     return likes
    
