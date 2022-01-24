@@ -17,8 +17,12 @@ import (
  */
 
 func viralAdvertising(n int32) int32 {
-    days := 1 
+    days := 1
+    if days == n {
+    }
     for i := 0; i <= days; i++ {
+    
+    i++
     }
     
     likes := int32
