@@ -1,8 +1,8 @@
 package main
 
 import (
-    "bufio"ggggggbbbn
-    "fmt"dddd
+    "bufio"
+    "fmt"
     "io"
     "os"
     "strconv"
@@ -18,7 +18,9 @@ import (
 
 func viralAdvertising(n int32) int32 {
     days := 1 
-    for 
+    for i := 0; i <= days; i++ {
+    }
+    
     likes := int32
     return likes
    
