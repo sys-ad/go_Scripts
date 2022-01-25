@@ -19,6 +19,7 @@ import (
 func viralAdvertising(n int32) int32 {
     days := 1
     if days == n {
+        return 1
     }
     for i := 0; i <= days; i++ {
     
