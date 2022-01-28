@@ -22,7 +22,8 @@ func viralAdvertising(n int32) int32 {
         return 2 
     }
     for i := 0; i <= days; i++ {
-        var shared, cumulative, last_count, new_count int32
+        var cumulative, last_count, new_count int32
+        
         next_day_shared := (n % 2) * 3
         cumulative := last_day_shared + next_day_shared       
     i++
