@@ -17,19 +17,21 @@ import (
  */
 
 func viralAdvertising(n int32) int32 {
+    var cumulative, last_count, new_count, days, i int32
     days := 1
     if days == n {
         return 2 
     }
     for i := 0; i <= days; i++ {
-        var cumulative, last_count, new_count int32
+        last_count := (n % 2) * 3
         
-        next_day_shared := (n % 2) * 3
-        cumulative := last_day_shared + next_day_shared       
+        new_count := last_count * 3
+        cumulative := last_count + new_count       
     i++
     }
     return cumulative
 }
+
 
 func main() {
     reader := bufio.NewReaderSize(os.Stdin, 16 * 1024 * 1024)
