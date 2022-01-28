@@ -22,12 +22,14 @@ func viralAdvertising(n int32) int32 {
         return 2 
     }
     for i := 0; i <= days; i++ {
-        var shared int32
-        shared := (n % 2) * 3
-        
+        var shared, cumulative, last_count, new_count int32
+        next_day_shared := (n % 2) * 3
+        cumulative := last_day_shared + next_day_shared
+        return cumulative        
         something divisible by 2, then add that to existing count
         liked is equal to last count x 3 or shared
         cumulative is the number for succesive days 
+        
     i++
     }
     
