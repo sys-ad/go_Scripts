@@ -22,6 +22,8 @@ func viralAdvertising(n int32) int32 {
         return 2 
     }
     for i := 0; i <= days; i++ {
+        shared := 0
+        shared == (n % 2) x
         something divisible by 2, then add that to existing count
         
     i++
