@@ -18,8 +18,7 @@ import (
 
 func viralAdvertising(n int32) int32 {
     var cumulative, last_count, new_count, days, i int32
-    days := 1
-    if days == n {
+    if days == 1 {
         return 2 
     }
     for i := 0; i <= days; i++ {
