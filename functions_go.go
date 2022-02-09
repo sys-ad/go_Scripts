@@ -14,3 +14,12 @@ func main() {
 
     println(result)
 }
+
+// example of closures. Similar to anonymous functions
+
+
+addN := func(m int){
+  return func(n int){
+      return m+n
+  }
+}
