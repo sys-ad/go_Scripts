@@ -23,3 +23,8 @@ addN := func(m int){
       return m+n
   }
 }
+addFive := addN(5)
+result := addN(6)
+
+println(result)
+}
