@@ -3,7 +3,7 @@ main package
 import (
   "fmt"
 )
-// examples of anonymous functions.
+// examples of anonymous functions. Note a function withou t a name
 
 func main() {
     add := func(m int){
@@ -15,7 +15,7 @@ func main() {
     println(result)
 }
 
-// example of closures. Similar to anonymous functions
+// example of closures. Similar to anonymous functions. More powerful than anonymous functions.
 
 
 addN := func(m int){
